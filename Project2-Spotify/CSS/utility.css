@@ -1,0 +1,24 @@
+.border{
+    border: 2px solid red;
+}
+
+.bg{
+    background-color: aqua;
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.logo_width{
+    width: 23px;
+}

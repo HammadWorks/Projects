@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/utility.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="./svg_folder/cancel.svg" alt="cancel" id="cancel" class="logo_width">
+            <div class="icon_container">
+                <div class="logo">
+                    <img class="invert" src="./svg_folder/logo.svg" alt="logo">
+                </div>
+                <div class="home">
+                    <img src="./svg_folder/home.svg" alt="home" class="invert logo_width">
+                    <h3>Home</h3>
+                </div>
+                <div class="search">
+                    <img src="./svg_folder/search.svg" alt="search" class="invert logo_width">
+                    <h3>Search</h3>
+                </div>
+            </div>
+            <div class="library">
+                <div class="lib_heading">
+                    <img src="./svg_folder/library.svg" alt="Library" class="invert logo_width">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="playlist">
+                    <!-- <div class="song">
+                        <img class="invert logo_width" src="./svg_folder/song_logo.svg" alt="logo">
+                        <h4></h4>
+                        <div class="play_now">Play Now 
+                            <img class="play invert logo_width" src="./svg_folder/play.svg" alt="play">
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="icons">
+                    <img src="./svg_folder/hamburger.svg" alt="hamburger" id="hamburger" class="logo_width">
+                    <div class="left_arrow fill">
+                        <img src="./svg_folder/left_arrow.svg" alt="left" class="invert logo_width">
+                    </div>
+                    <div class="right_arrow fill">
+                        <img src="./svg_folder/right_arrow.svg" alt="right" class="invert logo_width">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="sign_up btn">Sign up</button>
+                    <button class="log_in btn">Log in</button>
+                </div>
+            </div>
+            <div class="main_container">
+                <h2>Spotify playlist</h2>
+                <div class="card_container">
+                    <!-- <div data-folder="ncs" class="card">
+                        <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="">
+                        <h3>Dinner with Friends ncs</h3>
+                        <p>The perfect soundtrack to those long nights over dinner</p>
+                    </div>
+                    <div data-folder="cs" class="card">
+                        <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="">
+                        <h3>Dinner with Friends cs</h3>
+                        <p>The perfect soundtrack to those long nights over dinner</p>
+                    </div> -->
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="song_info">Song name</div>
+                <div class="play_buttons invert">
+                    <!-- <img class="loop_icons logo_width" src="./svg_folder/repeat.svg" alt="loop_icons"> -->
+                    <img id="previous" src="./svg_folder/previous.svg" alt="previous">
+                    <img id="play" src="./svg_folder/play.svg" alt="play/pause">
+                    <img id="next" src="./svg_folder/next.svg" alt="next">
+                </div>
+                <div class="button_container">
+                    <div class="volume">
+                        <img id="volImg" src="./svg_folder/volHigh.svg" alt="volume">
+                        <input id="volRange" type="range">
+                    </div>
+                    <div class="duration">00:00 / 00:00</div>
+                </div>
+                <div class="seek_bar">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
