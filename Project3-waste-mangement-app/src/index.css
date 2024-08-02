@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer_link {
+    @apply text-white cursor-pointer underline mb-1 sm:text-lg text-sm
+}
+
+.social_icon {
+    @apply hover:scale-110 sm:p-1 p-[2px] bg-white rounded-full sm:w-9 w-8 cursor-pointer
+}
+
+.nav_link {
+    @apply cursor-pointer hover:text-white hover:scale-105 sm:text-sm md:text-lg text-[10px]
+}
+
+.sign_in_btn {
+    @apply p-1 px-3 sm:px-4 border-2 border-white border-solid rounded-lg hover:scale-105 sm:text-sm md:text-lg text-[10px]
+}
+
+body {
+    position: relative;
+}
